@@ -4,44 +4,37 @@
        style="border-radius: 50%; box-shadow: 0 0 20px #e9caff;" />
 </p>
 
-# Hi there 👋 I'm PritiPratyush Mohapatra!
+# Hi there 👋 I'm Pritipratyush (Pupun) Mohapatra!
 
-🎓 **Student | Aspiring Data Scientist**  
-🤖 Passionate about **Machine Learning**, **Artificial Intelligence**, and using data to solve real-world problems.
+🎓 **Undergrad at OUTR | ML Engineer | Builder of Things from Scratch**  
+🤖 I write custom PyTorch autograd engines and tokenizers because merely importing libraries feels like cheating. *(Just kidding... mostly).*
 
----
-
-## 🌱 What I'm Learning
-- Machine Learning fundamentals  
-- Deep Learning & Neural Networks  
-- Python for Data Science (NumPy, Pandas, Matplotlib)  
-- Exploratory Data Analysis & Data Visualization  
-- AI concepts and real-world applications  
+I am a final-year engineering student deeply obsessed with the math and mechanics behind Large Language Models. If I'm not agonizing over a 6GB VRAM limit to keep my GPU from spontaneously combusting, I'm probably pulling up historical cricket stats or debugging a sliding window algorithm for my mentees. 
 
 ---
 
-## 🛠️ Tech & Tools
-- **Languages:** Python, SQL  
-- **Libraries:** Pandas, NumPy, Matplotlib, Scikit-Learn  
-- **Tools:** Jupyter Notebook, Git/GitHub, VS Code  
-- **Interests:** ML algorithms, AI models, data storytelling
+## 🚀 What I'm Currently Up To
+- **Training LLMs in my bedroom:** Architected and trained a 10M-parameter decoder-only Transformer from scratch.
+- **Making the web safer:** Developed a privacy-first AI Chrome extension using trigram probabilities and Shannon Entropy.
+- **Mentoring:** Teaching 10+ peers how to survive DSA interviews (and trying to keep them sane).
+- **Dodging CUDA OOM errors:** It's a lifestyle at this point.
 
 ---
 
-## 🔭 What I’m Working Toward
-- Building ML projects  
-- Improving model accuracy and experimentation  
-- Learning end-to-end data science workflows  
-- Exploring neural networks and deep learning
+## 🛠️ The Tech Arsenal
+- **Languages:** Python (Expert), C++, JavaScript, SQL, Bash  
+- **Deep Learning Sorcery:** PyTorch internals, Transformer Architecture, CUDA-aware training, Laplace Smoothing  
+- **Deployment & Web:** FastAPI, Streamlit, Manifest V3 Extensions  
+- **Vibe:** "Haters gonna hate," but my validation loss is steadily decreasing.  
 
 ---
 
-## 📫 Connect With Me
-- 💼 LinkedIn: [PritiPratyush Mohapatra](https://www.linkedin.com/in/priti-pratyush-mohapatra-5ab082241)
-- 📧 Email: [GetInTouch](mohapatrapritipratyush@gmail.com)
+## 📫 Let's Connect
+- 💼 **LinkedIn:** [Pritipratyush Mohapatra](https://www.linkedin.com/in/priti-pratyush-mohapatra-5ab082241)
+- 📧 **Email:** [pritipratyushm@gmail.com](mailto:pritipratyushm@gmail.com)
+- 🤗 **Hugging Face:** [@anpixelartist](https://huggingface.co/anpixelartist)
 
 ---
 
 ## ⚡ Fun Fact
-I think data tells better stories than words — you just need the right model to read them. 📊✨
-
+Data definitely tells better stories than words, but a beautifully tuned loss histogram is basically a romance novel. 📊✨
