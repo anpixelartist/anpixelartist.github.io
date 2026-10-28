@@ -23,6 +23,7 @@
     <a class="nav__brand" href="#top">pupun<span>.dev</span></a>
     <nav aria-label="Sections">
       <a href="#work">Work</a>
+      <a href="#writing">Writing</a>
       <a href="#stack">Stack</a>
       <a href="#contact">Contact</a>
     </nav>
@@ -117,6 +118,27 @@
       </div>
     </section>
 
+    <!-- Writing: same spotlight card, with a cover image -->
+    <section class="section" id="writing" aria-labelledby="writing-title">
+      <h2 id="writing-title" class="section__title">Writing</h2>
+      <p class="section__sub">I explain the ideas behind ML systems in plain words on Substack.</p>
+      <article class="card card--post">
+        <img class="post__cover" src="assets/img/vector-db-cover.webp" width="480" height="480" loading="lazy" decoding="async" alt="Chart placing movies on two axes by tone and theme, showing a search landing closest to 3 Idiots">
+        <div class="post__body">
+          <div class="card__head">
+            <span class="badge">Oct 2026 · 7 min read</span>
+            <h3><a class="post__link" href="https://apixelartist.substack.com/p/how-vector-databases-find-what-you">How Vector Databases Find What You Mean (Not Just What You Type)</a></h3>
+          </div>
+          <p>How embedding models turn text into vectors, why cosine similarity finds results by meaning rather than exact words, and why approximate nearest-neighbour search trades a little accuracy for a lot of speed.</p>
+          <blockquote class="post__quote">"Meaning helps you find the candidates. Exact data and rules help you choose the right answer."</blockquote>
+          <div class="card__links">
+            <a class="btn btn--primary" href="https://apixelartist.substack.com/p/how-vector-databases-find-what-you">Read the article ↗</a>
+            <a class="btn" href="https://apixelartist.substack.com">All posts ↗</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
     <!-- Tech stack: Marquee (Magic UI), pure CSS -->
     <section class="section" id="stack" aria-labelledby="stack-title">
       <h2 id="stack-title" class="section__title">The tech arsenal</h2>
@@ -142,6 +164,7 @@
         <li><a class="btn" href="https://www.linkedin.com/in/priti-pratyush-mohapatra-5ab082241">LinkedIn ↗</a></li>
         <li><a class="btn" href="https://github.com/anpixelartist">GitHub ↗</a></li>
         <li><a class="btn" href="https://huggingface.co/anpixelartist">Hugging Face ↗</a></li>
+        <li><a class="btn" href="https://apixelartist.substack.com">Substack ↗</a></li>
       </ul>
     </section>
   </main>

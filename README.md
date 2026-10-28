@@ -17,6 +17,7 @@ I am a final-year engineering student deeply obsessed with the math and mechanic
 - **Training LLMs in my bedroom:** Architected and trained a 10M-parameter decoder-only Transformer from scratch.
 - **Making the web safer:** Developed a privacy-first AI Chrome extension using trigram probabilities and Shannon Entropy.
 - **Ending "who owes whom" fights:** Built and shipped [Splitr](https://github.com/anpixelartist/Splitr), a real-time, offline-first expense-splitting app, plus an MCP connector so you can ask Claude or ChatGPT what you owe.
+- **Writing:** Explaining ML systems in plain words on [Substack](https://apixelartist.substack.com). Latest: [How Vector Databases Find What You Mean (Not Just What You Type)](https://apixelartist.substack.com/p/how-vector-databases-find-what-you).
 - **Mentoring:** Teaching 10+ peers how to survive DSA interviews (and trying to keep them sane).
 - **Dodging CUDA OOM errors:** It's a lifestyle at this point.
 
@@ -47,6 +48,7 @@ I am a final-year engineering student deeply obsessed with the math and mechanic
 - 💼 **LinkedIn:** [Pritipratyush Mohapatra](https://www.linkedin.com/in/priti-pratyush-mohapatra-5ab082241)
 - 📧 **Email:** [pritipratyushm@gmail.com](mailto:pritipratyushm@gmail.com)
 - 🤗 **Hugging Face:** [@anpixelartist](https://huggingface.co/anpixelartist)
+- ✍️ **Substack:** [apixelartist.substack.com](https://apixelartist.substack.com)
 
 ---
 
