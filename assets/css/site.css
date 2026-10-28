@@ -236,14 +236,12 @@ h1 { margin: 0; font-size: clamp(2rem, 6vw, 3.6rem); line-height: 1.1; letter-sp
 .timeline__org strong { color: var(--text); }
 .timeline__label--gap { margin-top: 2.5rem; }
 .org-logo {
-  display: inline-flex; align-items: center; justify-content: center;
-  height: 44px; min-width: 44px; padding: 6px 10px; margin-bottom: .6rem;
-  border-radius: 10px; background: #fff; border: 1px solid var(--border);
+  display: inline-grid; place-items: center; flex-shrink: 0;
+  width: 48px; height: 48px; margin-bottom: .6rem;
+  border-radius: 12px; background: #fff; border: 1px solid var(--border);
+  overflow: hidden;
 }
-.org-logo img { display: block; height: 32px; width: auto; }
-.org-logo--wordmark img { height: 18px; }
-.cert-group .org-logo img { height: 26px; }
-.cert-group .org-logo--wordmark img { height: 16px; }
+.org-logo img { display: block; width: 40px; height: 40px; object-fit: contain; }
 .cert-group { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem; margin-bottom: 1rem; }
 .cert-group .org-logo { margin-bottom: 0; }
 .cert-group .timeline__label { margin: 0 0 0 .25rem; }
