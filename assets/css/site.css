@@ -265,10 +265,12 @@ h1 { margin: 0; font-size: clamp(2rem, 6vw, 3.6rem); line-height: 1.1; letter-sp
 .cert__go { color: var(--accent-strong); }
 
 /* Writing */
-.card.card--post { display: grid; grid-template-columns: 1fr; gap: 1.5rem; }
-@media (min-width: 760px) { .card.card--post { grid-template-columns: 240px 1fr; align-items: start; } }
-.post__cover { width: 100%; max-width: 240px; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 14px; border: 1px solid var(--border); }
-.post__body { display: flex; flex-direction: column; gap: 1rem; }
+.posts { display: grid; gap: 1rem; grid-template-columns: 1fr; }
+@media (min-width: 860px) { .posts { grid-template-columns: 1fr 1fr; } }
+.post__cover { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 14px; border: 1px solid var(--border); background: #fff; }
+.post__cover--top { object-position: top; }
+.posts__more { margin: 1.5rem 0 0; }
+.post__body { display: flex; flex-direction: column; gap: 1rem; flex: 1; }
 .post__link { text-decoration: none; }
 .post__link:hover { text-decoration: underline; text-decoration-color: var(--accent-strong); text-underline-offset: 4px; }
 .post__quote { margin: 0; padding-left: 1rem; border-left: 2px solid var(--accent-strong); color: var(--text); font-style: italic; }

@@ -240,25 +240,41 @@
       </ul>
     </section>
 
-    <!-- Writing: same spotlight card, with a cover image -->
+    <!-- Writing: spotlight cards with cover images -->
     <section class="section" id="writing" aria-labelledby="writing-title">
       <h2 id="writing-title" class="section__title">Writing</h2>
       <p class="section__sub">I explain the ideas behind ML systems in plain words on Substack.</p>
-      <article class="card card--post">
-        <img class="post__cover" src="assets/img/vector-db-cover.webp" width="480" height="480" loading="lazy" decoding="async" alt="Chart placing movies on two axes by tone and theme, showing a search landing closest to 3 Idiots">
-        <div class="post__body">
-          <div class="card__head">
-            <span class="badge">Oct 2026 · 7 min read</span>
-            <h3><a class="post__link" href="https://apixelartist.substack.com/p/how-vector-databases-find-what-you">How Vector Databases Find What You Mean (Not Just What You Type)</a></h3>
+      <div class="posts">
+        <article class="card card--post">
+          <img class="post__cover" src="assets/img/contextual-retrieval-cover.webp" width="640" height="359" loading="lazy" decoding="async" alt="A legal-agreement chunk shown without context and with a short context note naming the First Party">
+          <div class="post__body">
+            <div class="card__head">
+              <span class="badge">Oct 28, 2026 · 9 min read · New</span>
+              <h3><a class="post__link" href="https://apixelartist.substack.com/p/contextual-retrieval">Contextual Retrieval: When a Chunk Has the Answer but Not the Context</a></h3>
+            </div>
+            <p>Why RAG systems lose meaning when documents are split into chunks, and how a short LLM-written note per chunk (plus keyword search) can cut retrieval failures by up to 67%.</p>
+            <blockquote class="post__quote">"Chunking keeps the information. Context keeps it meaningful."</blockquote>
+            <div class="card__links">
+              <a class="btn btn--primary" href="https://apixelartist.substack.com/p/contextual-retrieval">Read ↗</a>
+            </div>
           </div>
-          <p>How embedding models turn text into vectors, why cosine similarity finds results by meaning rather than exact words, and why approximate nearest-neighbour search trades a little accuracy for a lot of speed.</p>
-          <blockquote class="post__quote">"Meaning helps you find the candidates. Exact data and rules help you choose the right answer."</blockquote>
-          <div class="card__links">
-            <a class="btn btn--primary" href="https://apixelartist.substack.com/p/how-vector-databases-find-what-you">Read the article ↗</a>
-            <a class="btn" href="https://apixelartist.substack.com">All posts ↗</a>
+        </article>
+        <article class="card card--post">
+          <img class="post__cover post__cover--top" src="assets/img/vector-db-cover.webp" width="480" height="480" loading="lazy" decoding="async" alt="Chart placing movies on two axes by tone and theme, showing a search landing closest to 3 Idiots">
+          <div class="post__body">
+            <div class="card__head">
+              <span class="badge">Oct 20, 2026 · 7 min read</span>
+              <h3><a class="post__link" href="https://apixelartist.substack.com/p/how-vector-databases-find-what-you">How Vector Databases Find What You Mean (Not Just What You Type)</a></h3>
+            </div>
+            <p>How embedding models turn text into vectors, why cosine similarity finds results by meaning rather than exact words, and when you still need a traditional database.</p>
+            <blockquote class="post__quote">"Meaning helps you find the candidates. Exact data and rules help you choose the right answer."</blockquote>
+            <div class="card__links">
+              <a class="btn btn--primary" href="https://apixelartist.substack.com/p/how-vector-databases-find-what-you">Read ↗</a>
+            </div>
           </div>
-        </div>
-      </article>
+        </article>
+      </div>
+      <p class="posts__more"><a class="btn" href="https://apixelartist.substack.com">All posts on Substack ↗</a></p>
     </section>
 
     <!-- Tech stack: Marquee (Magic UI), pure CSS -->

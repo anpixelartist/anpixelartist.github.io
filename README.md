@@ -18,7 +18,7 @@ I am a final-year engineering student deeply obsessed with the math and mechanic
 - **Making the web safer:** Built [secureLens](https://github.com/anpixelartist/secureLens), a Chrome extension with a trigram model trained on 14.3M leaked passwords, compressed 3.8x for sub-2ms in-browser inference.
 - **Summarizing the news:** Built [Patrakaar.AI](https://github.com/anpixelartist/Patrakaar.AI-no-c0pyright-), a DistilBART + KeyBERT pipeline with 6x faster inference after lazy model loading.
 - **Ending "who owes whom" fights:** Built and shipped [Splitr](https://github.com/anpixelartist/Splitr), a real-time, offline-first expense-splitting app, plus an MCP connector so you can ask Claude or ChatGPT what you owe.
-- **Writing:** Explaining ML systems in plain words on [Substack](https://apixelartist.substack.com). Latest: [How Vector Databases Find What You Mean (Not Just What You Type)](https://apixelartist.substack.com/p/how-vector-databases-find-what-you).
+- **Writing:** Explaining ML systems in plain words on [Substack](https://apixelartist.substack.com). Latest: [Contextual Retrieval: When a Chunk Has the Answer but Not the Context](https://apixelartist.substack.com/p/contextual-retrieval) and [How Vector Databases Find What You Mean](https://apixelartist.substack.com/p/how-vector-databases-find-what-you).
 - **Mentoring:** Designing the curriculum and leading weekly DSA sessions for 10+ peers in OUTR's Peer Mentorship Program (and trying to keep them sane).
 - **Dodging CUDA OOM errors:** It's a lifestyle at this point.
 
