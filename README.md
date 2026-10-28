@@ -6,7 +6,7 @@
 
 # Hi there 👋 I'm Pritipratyush (Pupun) Mohapatra!
 
-🎓 **Undergrad at OUTR | ML Engineer | Builder of Things from Scratch**  
+🎓 **AI/ML Developer | B.Tech CSE (AI & ML) at OUTR | AIR 5690, GATE 2026 (DS & AI) | Builder of Things from Scratch**  
 🤖 I write custom PyTorch autograd engines and tokenizers because merely importing libraries feels like cheating. *(Just kidding... mostly).*
 
 I am a final-year engineering student deeply obsessed with the math and mechanics behind Large Language Models. If I'm not agonizing over a 6GB VRAM limit to keep my GPU from spontaneously combusting, I'm probably pulling up historical cricket stats or debugging a sliding window algorithm for my mentees. 
@@ -14,11 +14,12 @@ I am a final-year engineering student deeply obsessed with the math and mechanic
 ---
 
 ## 🚀 What I'm Currently Up To
-- **Training LLMs in my bedroom:** Architected and trained a 10M-parameter decoder-only Transformer from scratch.
-- **Making the web safer:** Developed a privacy-first AI Chrome extension using trigram probabilities and Shannon Entropy.
+- **Training LLMs in my bedroom:** Built [Echoes of Meaning](https://github.com/anpixelartist/echoes-of-meaning--a-character-level-gpt), a 10M-parameter decoder-only Transformer (6 layers, 8 heads) written from scratch and trained on a 6GB RTX 4050 to a 1.50 validation loss.
+- **Making the web safer:** Built [secureLens](https://github.com/anpixelartist/secureLens), a Chrome extension with a trigram model trained on 14.3M leaked passwords, compressed 3.8x for sub-2ms in-browser inference.
+- **Summarizing the news:** Built [Patrakaar.AI](https://github.com/anpixelartist/Patrakaar.AI-no-c0pyright-), a DistilBART + KeyBERT pipeline with 6x faster inference after lazy model loading.
 - **Ending "who owes whom" fights:** Built and shipped [Splitr](https://github.com/anpixelartist/Splitr), a real-time, offline-first expense-splitting app, plus an MCP connector so you can ask Claude or ChatGPT what you owe.
 - **Writing:** Explaining ML systems in plain words on [Substack](https://apixelartist.substack.com). Latest: [How Vector Databases Find What You Mean (Not Just What You Type)](https://apixelartist.substack.com/p/how-vector-databases-find-what-you).
-- **Mentoring:** Teaching 10+ peers how to survive DSA interviews (and trying to keep them sane).
+- **Mentoring:** Designing the curriculum and leading weekly DSA sessions for 10+ peers in OUTR's Peer Mentorship Program (and trying to keep them sane).
 - **Dodging CUDA OOM errors:** It's a lifestyle at this point.
 
 ---
@@ -36,15 +37,35 @@ I am a final-year engineering student deeply obsessed with the math and mechanic
 
 ---
 
+## 💼 Experience & Education
+- **AI Intern, Agentic AI & ML Systems**, Yavda Analytics · May – Jul 2026 · Hybrid  
+  LLM agent workflows with tool calling and RAG, agent evaluation as pass/fail regression tests, and a FastAPI data pipeline with Redis background workers, shipped via Docker and GitHub Actions to Google Cloud Run.
+- **Technical Mentor**, Peer Mentorship Program, OUTR · 2026 – Present
+- **B.Tech, CSE (AI & ML)**, Odisha University of Technology and Research (OUTR) · 2023 – 2027 · **9.05 CGPA**
+- **Class 12, CBSE (Science)**, ODM Public School · 90%
+- **Class 10, CBSE**, Kendriya Vidyalaya · 96.25%
+
+**Achievements:** All India Rank 5690 in GATE 2026 (Data Science & AI) · Gold Medalist, Mathematics Olympiad (state & district)
+
+---
+
+## 📜 Certifications
+**Anthropic (Jul 2026):** [MCP: Advanced Topics](https://verify.skilljar.com/c/tqy3mbnij66p) · [Introduction to MCP](https://verify.skilljar.com/c/44jdmrut5k2k) · [Introduction to Agent Skills](https://verify.skilljar.com/c/duyoqge6mcq6) · [Claude Code in Action](https://verify.skilljar.com/c/c2bo7h5v7dcb) · [Building with the Claude API](https://verify.skilljar.com/c/odh7a4nyymqu)
+
+**Stanford & DeepLearning.AI (Coursera):** [Machine Learning Specialization](https://www.coursera.org/account/accomplishments/specialization/QT6KEWDC2VMG) · [Supervised ML: Regression & Classification](https://www.coursera.org/account/accomplishments/records/RCI3CGPIB0LA) · [Advanced Learning Algorithms](https://www.coursera.org/account/accomplishments/records/7JWD8IGV9S3K) · [Unsupervised Learning, Recommenders, RL](https://www.coursera.org/account/accomplishments/records/9ZX23NDTI5P6)
+
+---
+
 ## 🛠️ The Tech Arsenal
 - **Languages:** Python (Expert), C++, JavaScript, TypeScript, SQL, Bash  
-- **Deep Learning Sorcery:** PyTorch internals, Transformer Architecture, CUDA-aware training, Laplace Smoothing  
-- **Deployment & Web:** FastAPI, Streamlit, Manifest V3 Extensions, React, Firebase, Cloudflare Workers, MCP servers  
+- **Deep Learning Sorcery:** PyTorch internals, NLP, LLMs, QLoRA, RAG, Tool-calling agents, Hugging Face, XGBoost, Random Forest, Pandas, Transformer Architecture, CUDA-aware training, Laplace Smoothing  
+- **Deployment & Web:** FastAPI, Docker, Google Cloud Run, GitHub Actions, Redis, PostgreSQL, Streamlit, Manifest V3 Extensions, React, Firebase, Cloudflare Workers, MCP servers  
 - **Vibe:** "Haters gonna hate," but my validation loss is steadily decreasing.  
 
 ---
 
 ## 📫 Let's Connect
+- 🗣️ **Speaks:** English, Hindi, Odia (native)
 - 💼 **LinkedIn:** [Pritipratyush Mohapatra](https://www.linkedin.com/in/priti-pratyush-mohapatra-5ab082241)
 - 📧 **Email:** [pritipratyushm@gmail.com](mailto:pritipratyushm@gmail.com)
 - 🤗 **Hugging Face:** [@anpixelartist](https://huggingface.co/anpixelartist)

@@ -23,8 +23,8 @@
     <a class="nav__brand" href="#top">pupun<span>.dev</span></a>
     <nav aria-label="Sections">
       <a href="#work">Work</a>
+      <a href="#experience">Experience</a>
       <a href="#writing">Writing</a>
-      <a href="#stack">Stack</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
@@ -38,9 +38,14 @@
       </div>
       <div class="hero__inner">
         <img class="hero__photo" src="assets/img/profile.jpg" width="176" height="176" alt="Portrait of Pritipratyush Mohapatra" fetchpriority="high">
-        <p class="eyebrow">Undergrad at OUTR · ML Engineer</p>
+        <p class="eyebrow">AI/ML Developer · B.Tech CSE (AI &amp; ML), OUTR '27</p>
         <h1>Hi, I'm Pritipratyush <span class="accent">(Pupun)</span> Mohapatra.</h1>
         <p class="lede">I build things from scratch: custom PyTorch autograd engines, tokenizers, a 10M-parameter Transformer trained in my bedroom, and apps people actually use. Importing libraries feels like cheating. <em>(Mostly kidding.)</em></p>
+        <ul class="hero__stats" aria-label="Highlights">
+          <li><strong>AIR 5690</strong> GATE 2026 (DS &amp; AI)</li>
+          <li><strong>9.05</strong> CGPA</li>
+          <li><strong>AI Intern</strong> Yavda Analytics</li>
+        </ul>
         <div class="hero__cta">
           <a class="btn btn--primary" href="#work">See my work</a>
           <a class="btn" href="https://github.com/anpixelartist">GitHub ↗</a>
@@ -81,8 +86,11 @@
             <h3>Echoes of Meaning</h3>
             <p class="card__tag">A character-level GPT that learns language from chaos.</p>
           </div>
-          <p>A decoder-only Transformer, about 10M parameters, written and trained from scratch on literary text, while keeping a 6 GB GPU from combusting. Tracks loss, perplexity and next-token accuracy.</p>
-          <ul class="chips" aria-label="Tech used"><li>PyTorch</li><li>Transformers</li><li>CUDA</li></ul>
+          <p>A 10M-parameter decoder-only Transformer (6 layers, 8 heads, 256-dim) with its own multi-head attention and character tokenizer, no abstraction libraries. Trained on a 4.8M-character literary corpus on a 6 GB RTX 4050 using gradient accumulation and cosine annealing.</p>
+          <ul class="metrics" aria-label="Results">
+            <li><strong>1.50</strong> val loss</li><li><strong>4.48</strong> val perplexity</li><li><strong>57.7%</strong> next-char accuracy</li>
+          </ul>
+          <ul class="chips" aria-label="Tech used"><li>PyTorch</li><li>CUDA</li><li>AdamW</li></ul>
           <div class="card__links"><a class="btn" href="https://github.com/anpixelartist/echoes-of-meaning--a-character-level-gpt">Source ↗</a></div>
         </article>
 
@@ -92,7 +100,10 @@
             <h3>secureLens</h3>
             <p class="card__tag">See the invisible.</p>
           </div>
-          <p>A Chrome extension that turns your password field into a live heatmap of predictability. Trigram probabilities learned from 14M leaked passwords, plus Shannon entropy. Everything runs locally.</p>
+          <p>A Chrome extension that turns your password field into a live heatmap of predictability. A trigram model trained on 14.3M leaked passwords, with Laplace smoothing and Shannon entropy mapped to crack-time estimates. Zero dependencies, and nothing leaves your browser.</p>
+          <ul class="metrics" aria-label="Results">
+            <li><strong>267K</strong> probability table</li><li><strong>3.8×</strong> smaller (0.74 MB)</li><li><strong>&lt;2 ms</strong> inference</li>
+          </ul>
           <ul class="chips" aria-label="Tech used"><li>Manifest V3</li><li>JavaScript</li><li>N-grams</li></ul>
           <div class="card__links"><a class="btn" href="https://github.com/anpixelartist/secureLens">Source ↗</a></div>
         </article>
@@ -107,15 +118,113 @@
           <div class="card__links"><a class="btn" href="https://github.com/anpixelartist/spellcheck">Source ↗</a></div>
         </article>
 
-        <article class="card card--mentor">
+        <article class="card card--patrakaar">
           <div class="card__head">
-            <span class="badge">Mentoring</span>
-            <h3>10+ peers through DSA interviews</h3>
+            <span class="badge">NLP pipeline</span>
+            <h3>Patrakaar.AI</h3>
           </div>
-          <p>Teaching sliding windows, graphs and the art of not panicking in interviews, and trying to keep everyone sane along the way.</p>
-          <div class="card__links"><a class="btn" href="https://github.com/anpixelartist/neetcode-submissions">My NeetCode log ↗</a></div>
+          <p>Summarizes news articles, extracts keywords and classifies topics with DistilBART and KeyBERT, behind FastAPI and a Streamlit dashboard. Lazy model loading made inference 6× faster and ended CUDA out-of-memory crashes.</p>
+          <ul class="chips" aria-label="Tech used"><li>Hugging Face</li><li>FastAPI</li><li>Streamlit</li></ul>
+          <div class="card__links">
+            <a class="btn" href="https://anpixelartist-patrakaar-ai-no-c0pyright--srcui-ln73xa.streamlit.app/">Live demo ↗</a>
+            <a class="btn" href="https://github.com/anpixelartist/Patrakaar.AI-no-c0pyright-">Source ↗</a>
+          </div>
+        </article>
+
+        <article class="card card--grad">
+          <div class="card__head">
+            <span class="badge">From first principles</span>
+            <h3>Grad Engine</h3>
+          </div>
+          <p>A scalar-valued reverse-mode autodiff engine, with neurons, layers and MLPs built on top of it. Backpropagation without a framework in sight.</p>
+          <ul class="chips" aria-label="Tech used"><li>Python</li><li>Calculus</li></ul>
         </article>
       </div>
+    </section>
+
+    <!-- Experience & education: custom timeline -->
+    <section class="section" id="experience" aria-labelledby="experience-title">
+      <h2 id="experience-title" class="section__title">Experience &amp; education</h2>
+      <div class="timeline-grid">
+        <div>
+          <h3 class="timeline__label">Experience</h3>
+          <ol class="timeline">
+            <li class="timeline__item">
+              <p class="timeline__date">May – Jul 2026 · Hybrid, Bhubaneswar</p>
+              <h4>AI Intern, Agentic AI &amp; ML Systems</h4>
+              <p class="timeline__org">Yavda Analytics Pvt. Ltd.</p>
+              <ul class="timeline__points">
+                <li>Built LLM agent workflows with tool calling and RAG that automate multi-step document and data processing, replacing manual review.</li>
+                <li>Turned subjective agent-output checks into measurable pass/fail regression tests against baseline models.</li>
+                <li>Built stages of a FastAPI data pipeline that turns messy CSV/XLSX files into schema-validated records with row-level errors, and moved heavy processing to Redis-backed background workers so the API stays fast under large uploads.</li>
+                <li>Shipped with Docker and GitHub Actions to Google Cloud Run: lint and test gates, one-push deploys, JWT/OAuth auth.</li>
+              </ul>
+            </li>
+            <li class="timeline__item">
+              <p class="timeline__date">2026 – Present</p>
+              <h4>Technical Mentor, Algorithmic Foundations</h4>
+              <p class="timeline__org">Peer Mentorship Program, OUTR</p>
+              <ul class="timeline__points">
+                <li>Designed the curriculum and lead weekly sessions for 10+ peers on dynamic programming, sliding windows, two pointers and complexity analysis.</li>
+              </ul>
+            </li>
+          </ol>
+          <h3 class="timeline__label timeline__label--gap">Achievements</h3>
+          <ol class="timeline">
+            <li class="timeline__item">
+              <p class="timeline__date">2026</p>
+              <h4>All India Rank 5690, GATE (Data Science &amp; AI)</h4>
+              <p class="timeline__org">National exam on ML theory and applied mathematics</p>
+            </li>
+            <li class="timeline__item">
+              <p class="timeline__date">School</p>
+              <h4>Gold Medalist, Mathematics Olympiad</h4>
+              <p class="timeline__org">State and district level</p>
+            </li>
+          </ol>
+        </div>
+        <div>
+          <h3 class="timeline__label">Education</h3>
+          <ol class="timeline">
+            <li class="timeline__item">
+              <p class="timeline__date">Aug 2023 – May 2027</p>
+              <h4>B.Tech, Computer Science (AI &amp; ML)</h4>
+              <p class="timeline__org">Odisha University of Technology and Research (OUTR) · <strong>9.05 CGPA</strong></p>
+            </li>
+            <li class="timeline__item">
+              <p class="timeline__date">2020 – 2022</p>
+              <h4>Class 12, CBSE (Science)</h4>
+              <p class="timeline__org">ODM Public School · 90%</p>
+            </li>
+            <li class="timeline__item">
+              <p class="timeline__date">2012 – 2020</p>
+              <h4>Class 10, CBSE</h4>
+              <p class="timeline__org">Kendriya Vidyalaya · 96.25%</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications: linked cards -->
+    <section class="section" id="certifications" aria-labelledby="certs-title">
+      <h2 id="certs-title" class="section__title">Certifications</h2>
+      <p class="section__sub">Every one links to its verification page.</p>
+      <h3 class="timeline__label">Anthropic · Jul 2026</h3>
+      <ul class="certs">
+        <li><a class="cert" href="https://verify.skilljar.com/c/tqy3mbnij66p"><span>MCP: Advanced Topics</span><span class="cert__go" aria-hidden="true">↗</span></a></li>
+        <li><a class="cert" href="https://verify.skilljar.com/c/44jdmrut5k2k"><span>Introduction to MCP</span><span class="cert__go" aria-hidden="true">↗</span></a></li>
+        <li><a class="cert" href="https://verify.skilljar.com/c/duyoqge6mcq6"><span>Introduction to Agent Skills</span><span class="cert__go" aria-hidden="true">↗</span></a></li>
+        <li><a class="cert" href="https://verify.skilljar.com/c/c2bo7h5v7dcb"><span>Claude Code in Action</span><span class="cert__go" aria-hidden="true">↗</span></a></li>
+        <li><a class="cert" href="https://verify.skilljar.com/c/odh7a4nyymqu"><span>Building with the Claude API</span><span class="cert__go" aria-hidden="true">↗</span></a></li>
+      </ul>
+      <h3 class="timeline__label">Stanford &amp; DeepLearning.AI · Coursera</h3>
+      <ul class="certs">
+        <li><a class="cert" href="https://www.coursera.org/account/accomplishments/specialization/QT6KEWDC2VMG"><span>Machine Learning Specialization <small>Dec 2025</small></span><span class="cert__go" aria-hidden="true">↗</span></a></li>
+        <li><a class="cert" href="https://www.coursera.org/account/accomplishments/records/RCI3CGPIB0LA"><span>Supervised ML: Regression &amp; Classification <small>Jul 2025</small></span><span class="cert__go" aria-hidden="true">↗</span></a></li>
+        <li><a class="cert" href="https://www.coursera.org/account/accomplishments/records/7JWD8IGV9S3K"><span>Advanced Learning Algorithms <small>Nov 2025</small></span><span class="cert__go" aria-hidden="true">↗</span></a></li>
+        <li><a class="cert" href="https://www.coursera.org/account/accomplishments/records/9ZX23NDTI5P6"><span>Unsupervised Learning, Recommenders, RL <small>Dec 2025</small></span><span class="cert__go" aria-hidden="true">↗</span></a></li>
+      </ul>
     </section>
 
     <!-- Writing: same spotlight card, with a cover image -->
@@ -145,12 +254,12 @@
       <p class="section__sub">Haters gonna hate, but my validation loss is steadily decreasing.</p>
       <div class="marquee" data-marquee>
         <ul class="marquee__track" aria-label="Languages and deep learning">
-          <li>Python</li><li>C++</li><li>PyTorch internals</li><li>Transformer architecture</li><li>CUDA-aware training</li><li>Tokenizers</li><li>Autograd</li><li>Laplace smoothing</li><li>SQL</li><li>Bash</li>
+          <li>Python</li><li>C++</li><li>PyTorch internals</li><li>Transformer architecture</li><li>CUDA-aware training</li><li>Tokenizers</li><li>Autograd</li><li>NLP</li><li>LLMs</li><li>Agentic AI</li><li>QLoRA</li><li>Hugging Face</li><li>RAG</li><li>Tool-calling agents</li><li>XGBoost</li><li>Random Forest</li><li>Pandas</li><li>Laplace smoothing</li><li>SQL</li><li>Bash</li>
         </ul>
       </div>
       <div class="marquee marquee--reverse" data-marquee>
         <ul class="marquee__track" aria-label="Web and deployment">
-          <li>TypeScript</li><li>JavaScript</li><li>React</li><li>FastAPI</li><li>Streamlit</li><li>Firebase</li><li>Cloudflare Workers</li><li>MCP servers</li><li>Manifest V3</li><li>Tailwind</li>
+          <li>TypeScript</li><li>JavaScript</li><li>React</li><li>FastAPI</li><li>Docker</li><li>Google Cloud Run</li><li>GitHub Actions</li><li>Redis</li><li>PostgreSQL</li><li>Streamlit</li><li>Firebase</li><li>Cloudflare Workers</li><li>MCP servers</li><li>Manifest V3</li><li>Tailwind</li>
         </ul>
       </div>
     </section>
