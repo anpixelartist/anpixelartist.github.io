@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pritipratyush Mohapatra · ML Engineer & Builder</title>
+  <meta name="description" content="Final-year engineering student at OUTR building LLMs from scratch, privacy-first AI tools and Splitr, a real-time expense-splitting app.">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#0b0a10">
+  <meta property="og:title" content="Pritipratyush (Pupun) Mohapatra">
+  <meta property="og:description" content="ML engineer and builder of things from scratch.">
+  <meta property="og:image" content="https://anpixelartist.github.io/assets/img/profile.jpg">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23c39bff'/%3E%3Ctext x='16' y='22' font-family='monospace' font-size='16' font-weight='700' text-anchor='middle' fill='%230b0a10'%3EPM%3C/text%3E%3C/svg%3E">
+  <link rel="preload" as="image" href="assets/img/profile.jpg" fetchpriority="high">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script src="assets/js/site.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav">
+    <a class="nav__brand" href="#top">pupun<span>.dev</span></a>
+    <nav aria-label="Sections">
+      <a href="#work">Work</a>
+      <a href="#stack">Stack</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero: Spotlight (Aceternity UI), ported to CSS -->
+    <section class="hero" id="top">
+      <div class="spotlight" aria-hidden="true">
+        <div class="spotlight__drift"><span></span><span></span><span></span></div>
+        <div class="spotlight__drift spotlight__drift--right"><span></span><span></span><span></span></div>
+      </div>
+      <div class="hero__inner">
+        <img class="hero__photo" src="assets/img/profile.jpg" width="176" height="176" alt="Portrait of Pritipratyush Mohapatra" fetchpriority="high">
+        <p class="eyebrow">Undergrad at OUTR · ML Engineer</p>
+        <h1>Hi, I'm Pritipratyush <span class="accent">(Pupun)</span> Mohapatra.</h1>
+        <p class="lede">I build things from scratch: custom PyTorch autograd engines, tokenizers, a 10M-parameter Transformer trained in my bedroom, and apps people actually use. Importing libraries feels like cheating. <em>(Mostly kidding.)</em></p>
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#work">See my work</a>
+          <a class="btn" href="https://github.com/anpixelartist">GitHub ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects: Bento Grid (Magic UI) + Spotlight Card (React Bits) + Shine Border (Magic UI) -->
+    <section class="section" id="work" aria-labelledby="work-title">
+      <h2 id="work-title" class="section__title">Things I've built</h2>
+      <div class="bento">
+        <article class="card card--featured">
+          <span class="shine" aria-hidden="true"></span>
+          <div class="card__head">
+            <span class="badge">Featured · Live</span>
+            <h3>Splitr</h3>
+            <p class="card__tag">Split group expenses fairly and settle up.</p>
+          </div>
+          <p>An installable PWA that syncs in real time between group members and keeps working offline. Splits are exact to the cent in any currency, with a short "who pays whom" settlement plan.</p>
+          <ul class="points">
+            <li><strong>Firebase Auth + Firestore</strong> with offline persistence. Guests upgrade to Google sign-in without losing data.</li>
+            <li><strong>Security in the rules:</strong> Firestore rules are the single source of truth, covered by emulator tests.</li>
+            <li><strong>AI connector (MCP):</strong> ask Claude or ChatGPT what you owe. It runs on Cloudflare Workers with OAuth 2.1 + PKCE, using each user's own token, so it can't see more than they can.</li>
+          </ul>
+          <ul class="chips" aria-label="Tech used">
+            <li>React 19</li><li>TypeScript</li><li>Firebase</li><li>Cloudflare Workers</li><li>MCP</li><li>Vitest</li>
+          </ul>
+          <div class="card__links">
+            <a class="btn btn--primary" href="https://splitr-bills.web.app">Open the app ↗</a>
+            <a class="btn" href="https://www.splitr.workers.dev">Website ↗</a>
+            <a class="btn" href="https://github.com/anpixelartist/Splitr">Source ↗</a>
+          </div>
+        </article>
+
+        <article class="card card--gpt">
+          <div class="card__head">
+            <span class="badge">LLMs from scratch</span>
+            <h3>Echoes of Meaning</h3>
+            <p class="card__tag">A character-level GPT that learns language from chaos.</p>
+          </div>
+          <p>A decoder-only Transformer, about 10M parameters, written and trained from scratch on literary text, while keeping a 6 GB GPU from combusting. Tracks loss, perplexity and next-token accuracy.</p>
+          <ul class="chips" aria-label="Tech used"><li>PyTorch</li><li>Transformers</li><li>CUDA</li></ul>
+          <div class="card__links"><a class="btn" href="https://github.com/anpixelartist/echoes-of-meaning--a-character-level-gpt">Source ↗</a></div>
+        </article>
+
+        <article class="card card--lens">
+          <div class="card__head">
+            <span class="badge">Privacy-first AI</span>
+            <h3>secureLens</h3>
+            <p class="card__tag">See the invisible.</p>
+          </div>
+          <p>A Chrome extension that turns your password field into a live heatmap of predictability. Trigram probabilities learned from 14M leaked passwords, plus Shannon entropy. Everything runs locally.</p>
+          <ul class="chips" aria-label="Tech used"><li>Manifest V3</li><li>JavaScript</li><li>N-grams</li></ul>
+          <div class="card__links"><a class="btn" href="https://github.com/anpixelartist/secureLens">Source ↗</a></div>
+        </article>
+
+        <article class="card card--spell">
+          <div class="card__head">
+            <span class="badge">NLP</span>
+            <h3>Context-Aware Spell Checker</h3>
+          </div>
+          <p>Catches real-word errors like "going to the <em>see</em>" with a bigram language model, Laplace smoothing and Levenshtein distance. Every fix comes with a confidence score.</p>
+          <ul class="chips" aria-label="Tech used"><li>Python</li><li>Streamlit</li></ul>
+          <div class="card__links"><a class="btn" href="https://github.com/anpixelartist/spellcheck">Source ↗</a></div>
+        </article>
+
+        <article class="card card--mentor">
+          <div class="card__head">
+            <span class="badge">Mentoring</span>
+            <h3>10+ peers through DSA interviews</h3>
+          </div>
+          <p>Teaching sliding windows, graphs and the art of not panicking in interviews, and trying to keep everyone sane along the way.</p>
+          <div class="card__links"><a class="btn" href="https://github.com/anpixelartist/neetcode-submissions">My NeetCode log ↗</a></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Tech stack: Marquee (Magic UI), pure CSS -->
+    <section class="section" id="stack" aria-labelledby="stack-title">
+      <h2 id="stack-title" class="section__title">The tech arsenal</h2>
+      <p class="section__sub">Haters gonna hate, but my validation loss is steadily decreasing.</p>
+      <div class="marquee" data-marquee>
+        <ul class="marquee__track" aria-label="Languages and deep learning">
+          <li>Python</li><li>C++</li><li>PyTorch internals</li><li>Transformer architecture</li><li>CUDA-aware training</li><li>Tokenizers</li><li>Autograd</li><li>Laplace smoothing</li><li>SQL</li><li>Bash</li>
+        </ul>
+      </div>
+      <div class="marquee marquee--reverse" data-marquee>
+        <ul class="marquee__track" aria-label="Web and deployment">
+          <li>TypeScript</li><li>JavaScript</li><li>React</li><li>FastAPI</li><li>Streamlit</li><li>Firebase</li><li>Cloudflare Workers</li><li>MCP servers</li><li>Manifest V3</li><li>Tailwind</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact: custom -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title" class="section__title">Let's connect</h2>
+      <p class="section__sub">Data tells better stories than words, but a beautifully tuned loss histogram is basically a romance novel.</p>
+      <ul class="contact__links">
+        <li><a class="btn btn--primary" href="mailto:pritipratyushm@gmail.com">Email me</a></li>
+        <li><a class="btn" href="https://www.linkedin.com/in/priti-pratyush-mohapatra-5ab082241">LinkedIn ↗</a></li>
+        <li><a class="btn" href="https://github.com/anpixelartist">GitHub ↗</a></li>
+        <li><a class="btn" href="https://huggingface.co/anpixelartist">Hugging Face ↗</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span data-year>2026</span> Pritipratyush Mohapatra</p>
+  </footer>
+</body>
+</html>
