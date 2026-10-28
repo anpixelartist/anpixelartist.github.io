@@ -68,7 +68,6 @@ I am a final-year engineering student deeply obsessed with the math and mechanic
 - 🗣️ **Speaks:** English, Hindi, Odia (native)
 - 💼 **LinkedIn:** [Pritipratyush Mohapatra](https://www.linkedin.com/in/priti-pratyush-mohapatra-5ab082241)
 - 📧 **Email:** [pritipratyushm@gmail.com](mailto:pritipratyushm@gmail.com)
-- 🤗 **Hugging Face:** [@anpixelartist](https://huggingface.co/anpixelartist)
 - ✍️ **Substack:** [apixelartist.substack.com](https://apixelartist.substack.com)
 
 ---
